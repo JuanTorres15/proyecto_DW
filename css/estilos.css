@@ -108,34 +108,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 26vh;
 }
 
 .texto_ubicacion{
     font-family: 'Prompt', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: start;
     color: white;
 }
 
 .texto_contacto{
     font-family: 'Prompt', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
     color: white;
 }
 
 .texto_redes{
     font-family: 'Prompt', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
     color: white;
 }
 
 .tdlr{
     font-family: 'Prompt', sans-serif;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     text-align: center;
     color: white;
     margin-top: 2px;
