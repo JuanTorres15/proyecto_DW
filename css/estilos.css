@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,400;1,6..12,500&family=Prompt:ital,wght@0,500;1,400&family=Ruda:wght@400;500&display=swap');
+
+.header_navegador{
+    background-color: rgb(0, 0, 0);
+}
+
+.contenedorlogo{
+    display: flex;
+    justify-content: left;
+
+}
+
+.logo{
+    width: 50px;
+}
+
+.bandera_argentina{
+    width: 50px;
+
+}
+
+.ig{
+    font-size: 2rem;
+    color: rgba(255, 0, 157, 0.671);
+}
+.wsp{
+    font-size: 2rem;
+    color: rgb(135, 224, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navegador_header{
+    margin-top: 20px;
+}
+
+.link_nav{
+    font-family:'Ruda', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 999;
+    margin-left: 8px;
+}
+.correo{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}    
+
+.correo_electronico{
+    font-family:'Ruda', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.fondo_main{
+    background-image: url(../fondo_imagen1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo_presentacion{
+    margin-top: 50px;
+}
+
+.titulo_presentacion2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.texto_presentacion{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.parrafo_presentacion{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.imagen_presentacion1{
+    width: 400px;
+}
+
+.imagen_presentacion2{
+    width: 400px;
+}
+
+.imagen_comohariamos{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.imagen_comohariamos2{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 26vh;
+}
+
+.texto_ubicacion{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.8rem;
+    text-align: start;
+    color: white;
+}
+
+.texto_contacto{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+}
+
+.texto_redes{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+}
+
+.tdlr{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 2px;
+}
