@@ -1,59 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <!--Contenido del comentario-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contenido | Power UP</title>
+        <title>Power UP | Servicio </title>
         <script src="https://kit.fontawesome.com/dfef5dcf50.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
         <link rel="icon" type="image/svg" href="../bullhorn-solid (1).svg">
     </head>
     <body>
-        <header class="header">
-            <div class="contenedorlogo">
-                <a href="../index.html">
-                    <img class="logo" src="../assets/img/Logo oficial.JPG"Logo">
-                </a>
-            </div>
-             <nav class="navegacion">
-                <ul class="listanav">
-                    <li class="listaitems"><a class="linknav" href="../index.html">Inicio</a></li>
-                    <li class="listaitems"><a class="linknav" href="../pages/servicio.html">Servicio</a></li>
-                    <li class="listaitems"><a class="linknav" href="../pages/contenido.html">Contenido</a></li>
-                    <li class="listaitems"><a class="linknav" href="../pages/portfolio.html">Portfolio</a></li>
-                    <li class="listaitems"><a class="linknav" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
+        <header class="">
+            <nav class="navbar navbar-expand-lg navbar-dark header_navegador">
+                <div class="container-fluid">
+                    <div class="col-2 contenedor_logo">
+                        <a href="../index.html">
+                            <img class="logo rounded-circle" src="../assets/img/Logo oficial.JPG" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <img class="bandera_argentina" src="../assets/img/banderadeargentina.jpg" alt="banderadeargentina">
+                    </div>
+                    <div class="col-2">
+                        <a class="ig" href="https://www.instagram.com/marketing_powerup/"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="wsp" href="https://wa.link/k2o5vr"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-6 collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                            <li class="nav-item">
+                                <a class="link_nav" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item link_nav">
+                                <a class="link_nav" aria-current="page" href="./servicio.html">Servicio</a>
+                            </li>
+                            <li class="nav-item link_nav">
+                                <a class="link_nav" href="./contenido.html">Contenido</a>
+                            </li>
+                            <li class="nav-item link_nav">
+                                <a class="link_nav" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item link_nav">
+                                <a class="link_nav" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
-        <main>
-            <section>
-                <h1>¿TEXTO PREGUNTA?</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam ad ex odio maiores, quis fugiat dolores error qui aspernatur earum quae, ullam itaque officiis repellat incidunt est at deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat incidunt ea dolorum impedit culpa quisquam non, delectus perferendis dolores fugit debitis aliquam accusamus adipisci quidem facere minima. Omnis, similique doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, laboriosam eum, veniam sapiente animi magni perferendis voluptates dicta repellendus delectus blanditiis neque accusantium autem expedita ducimus sunt. Molestias, recusandae aliquid?</p>
-            </section>
-            <section>
-                <img src="../assets/img/objetivoprincipal.jpg" alt="ObjetivoPrincpial">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea cupiditate ducimus ex illo, dolorem temporibus quod deleniti odit explicabo ipsa sequi sapiente numquam unde, praesentium dolor nihil quo delectus molestias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est beatae vero, eveniet nostrum autem, modi velit placeat ad aspernatur accusantium, excepturi voluptates consequuntur soluta ipsum odio! Dolorem, amet alias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam tempora molestias repellat illum maiores! Vitae quia placeat praesentium voluptate, blanditiis doloribus exercitationem architecto iure facere modi non at, odio recusandae?</p>
-            </section>
+        <main class="container-fluid fondo_main">
+          <section class="row">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../assets/img/trabajo_equipo.jpg" class="d-block w-100" alt="trabajo en equipo">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo_presentacion text-dark">Visibilidad y Alcance</h5>
+                    <p class="parrafo_quienes text-dark">El marketing digital amplía la visibilidad y el alcance de la marca, permitiendo llegar a una audiencia global a través de diversas plataformas en línea.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../assets/img/dinero_carru.jpg" class="d-block w-100" alt="imagen ingresos">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo_presentacion text-dark">Generación de Ingresos</h5>
+                    <p class="parrafo_quienes text-dark">Facilita la monetización a través de la venta de productos, servicios, entradas para eventos, colaboraciones y patrocinios.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../assets/img/conexion_carru.png" class="d-block w-100" alt="conexion con publico">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="titulo_presentacion text-dark">Conexión con la Audiencia</h5>
+                    <p class="parrafo_quienes text-dark">Facilita la interacción y la conexión directa con seguidores y clientes potenciales a través de redes sociales, correo electrónico y otros canales digitales.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+          <section class="row titulo_presentacion">
+            <div class="col-md-6">
+              <h2 class="text-center titulo_presentacion2">Importancia para los Influencers</h2>
+              <p class="parrafo_definicion tex-center">La importancia de un influencer en una estrategia de marketing radica en su capacidad para impactar en la percepción, elevar la visibilidad y aumentar la credibilidad de una marca o producto ante su audiencia. Un influencer es alguien con una base de seguidores leales y comprometidos en las redes sociales o plataformas en línea. Su influencia se basa en la confianza que han construido con su audiencia a lo largo del tiempo.</p>
+            </div>
+            <div class="col-md-6">
+              <h2 class="text-center titulo_presentacion2">Importancia para los Artistas</h2>
+              <p class="parrafo_definicion tex-center">La importancia de un artista al colaborar con una compañía de marketing radica en su capacidad para aportar creatividad, autenticidad y relevancia a las estrategias de promoción de la empresa.</p>
+            </div>
+            <div class="col-md-12">
+              <h2 class="text-center titulo_presentacion3">Importancia para las Empresa</h2>
+              <p class="parrafo_definicion tex-center">La importancia de una empresa o marca al colaborar con una compañía de marketing radica en la necesidad de promocionar, posicionar y maximizar su presencia en el mercado, atraer a nuevos clientes, mantener la lealtad de los existentes y lograr sus objetivos comerciales de manera efectiva.</p>
+            </div>
+            <div class="col-md-6">
+              <h2 class="text-center titulo_presentacion2">Trabajamos de Manera Organica</h2>
+              <p class="parrafo_definicion tex-center">Trabajar de manera orgánica en el crecimiento de las redes con una compañía de marketing implica emplear estrategias y tácticas que se centran en el desarrollo gradual y auténtico de una presencia en línea, sin depender exclusivamente de publicidad paga o tácticas artificiales. En lugar de intentar un crecimiento rápido a través de métodos no sostenibles, el enfoque orgánico se basa en la construcción de relaciones genuinas con la audiencia y la entrega de contenido valioso.</p>
+            </div>
+            <div class="col-md-6">
+              <h2 class="text-center titulo_presentacion2">La idea principal</h2>
+              <p class="parrafo_definicion tex-center">La idea principal es mejorar por completo tus compromisos, para que la cantidad de Me gusta que generes sea consistente con la cantidad de seguidores, ¡y también acompañar todas tus publicaciones con comentarios! ¡Que aumente la visibilidad de tus historias! esto generará una mejora favorable para tu perfil!</p>
+            </div>
+          </section>
         </main>
-        <footer class="piedepagina footer">
-            <section class="abajopagina">
-                <h3>Ubicación</h3>
-                <p>Av Corrientes, 1500</p>
-                <p>CP. 1406 Buenos Aires, Argentina</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.99663892496!2d-58.3878359!3d-34.604246499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac41df8dc85%3A0x935b387497ed756a!2sAv.%20Corrientes%201500%2C%20C1048AAN%20CABA!5e0!3m2!1ses-419!2sar!4v1694463639496!5m2!1ses-419!2sar" width="200" height="75" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-            <section class="abajopagina">
-                <h3>Contacto</h3>
-                <p>011-6551-6374</p>
-                <p>Juanchoxp2011@gmail.com</p>
-            </section>
-            <section class="abajopagina">
-                <h3>Redes Sociales</h3>
-                <a class="ig" href="https://www.instagram.com/marketing_powerup/"><i class="fa-brands fa-instagram"></i></a>
-                <a class="wsp" href="https://wa.link/k2o5vr"><i class="fa-brands fa-whatsapp"></i></a>
-            </section>
-                <p class="tldr">Todos los derechos reservados</p>
-        </footer>
+        <footer class="footer container-fluid w-100">
+          <section class="row">
+              <div class="col-4 texto_ubicacion text-center text-light">
+                  <p>Ubicación</p>
+                  <p>Avenida Corrientes 1500, Buenos Aires</p>
+                  <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.99663892496!2d-58.3878359!3d-34.604246499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac41df8dc85%3A0x935b387497ed756a!2sAv.%20Corrientes%201500%2C%20C1048AAN%20CABA!5e0!3m2!1ses-419!2sar!4v1694463639496!5m2!1ses-419!2sar" width="100%" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="texto_contacto col-4 text-center text-light">
+                  <p>Contacto</p>
+                  <p>011-6551-6374</p>
+                  <p>Juanchoxp2011@gmail.com</p>
+              </div>
+              <div class="texto_redes col-4 text-center text-light">
+                  <p>Redes Sociales</p>
+                  <a class="ig" href="https://www.instagram.com/marketing_powerup/"><i class="fa-brands fa-instagram"></i></a>
+                  <a class="wsp" href="https://wa.link/k2o5vr"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+              <p class="tdlr text-center text-light">Todos los derechos reservados</p>
+          </section>
+      </footer>
+      <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
