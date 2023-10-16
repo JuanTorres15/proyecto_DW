@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Lora:ital@1&family=Nunito+Sans:ital,opsz,wght@1,6..12,400;1,6..12,500&family=Prompt:ital,wght@0,500;1,400&family=Ruda:wght@400;500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .header_navegador{
     background-color: rgb(0, 0, 0);
