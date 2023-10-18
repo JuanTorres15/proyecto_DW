@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*Header*/
 .header_navegador{
     background-color: rgb(0, 0, 0);
 }
@@ -42,16 +42,9 @@
     font-weight: 999;
     margin-left: 8px;
 }
-.correo{
-    font-size: 1.5rem;
-    color: rgb(255, 255, 255);
-}    
-.correo_electronico{
-    font-family:'Ruda', sans-serif;
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-}
+/*finaliza el header*/
+
+/*Main del index*/
 .fondo_main{
     background-image: url(../fondo_imagen1.jpg);
     background-position: center;
@@ -61,21 +54,73 @@
 .titulo_presentacion{
     margin-top: 50px;
     font-family: 'Prompt', sans-serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 800;
 }
-.titulo_presentacion2{
-    margin-top: 50px;
-}
-.titulo_presentacion3{
-    margin-top: 20px;
-    text-align: center;
+.subtitulo_presentacion{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 .parrafo_presentacion{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin-top: 20px;
+}
+.titulo_contacto{
+    margin-top: 50px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.imagen_presentacion1{
+    width: 250px;
+}
+.imagen_presentacion2{
+    width: 250px;
+}
+.titulo_presentacion2{
+    margin-top: 50px;
+}
+.imagen_comohariamos{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.imagen_comohariamos2{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.recomendaciones{
+    background-color: rgb(11, 0, 167);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_recomendacion{
+    margin-top: 50px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
+.parrafo_recomendacion{
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+/*Fin del main index*/
+
+/*Main del servicio*/
+
+.imagen_preguntas{
+    margin-top: 150px;
+}
+
+.titulo_presentacion3{
+    margin-top: 20px;
+    text-align: center;
 }
 .parrafo_porque{
     font-family: 'Nunito Sans', sans-serif;
@@ -85,7 +130,6 @@
 }
 .parrafo_quienes{
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
     font-size: 1.5rem;
     margin-top: 20px;
 }
@@ -95,28 +139,14 @@
     font-size: 1.5rem;
     margin: 20px;
 }
-.imagen_presentacion1{
-    width: 400px;
-}
-.imagen_presentacion2{
-    width: 400px;
-}
 
 .imagen_quienes{
     width: 500px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .imagen_que{
     width: 500px;
     margin-top: 50px;
-}
-.imagen_comohariamos{
-    width: 300px;
-    margin-bottom: 10px;
-}
-.imagen_comohariamos2{
-    width: 300px;
-    margin-bottom: 10px;
 }
 .carousel{
     width: 100%;
@@ -141,23 +171,31 @@
 }
 .texto_ubicacion{
     font-family: 'Prompt', sans-serif;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 .texto_contacto{
     font-family: 'Prompt', sans-serif;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 .texto_redes{
     font-family: 'Prompt', sans-serif;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 .tdlr{
     font-family: 'Prompt', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.3rem;
     margin-top: 2px
 }
 
 @media screen and (max-width: 768px) {
+    .imagen_preguntas{
+        margin-top: 20px;
+        width: 300px;
+    }
+    .video_recomendacion{
+        width: 350px;
+        height: 200px;
+    }
     .titulo_presentacion{
         font-size: 2.5rem;
         margin-top: 20px;
@@ -175,12 +213,19 @@
         font-size: 0.8rem;
     }
 
-    .paprrafo_definicion{
+    .parrafo_definicion{
         font-size: 0.8rem;
     }
 
     .imagen_presentacion1{
         width: 200px;
+    }
+
+    .titulo_contacto{
+        margin-top: 50px;
+        font-family: 'Prompt', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 800;
     }
 
     .titulo_que{
@@ -211,10 +256,9 @@
         width: 300px;
         margin-top: 5px;
     }
-
     .imagen_que{
         width: 300px;
-        margin-top: 30px;
+        margin-top: 150px;
     }
 
     .margen_20px{
