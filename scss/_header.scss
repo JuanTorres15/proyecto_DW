@@ -1,0 +1,43 @@
+/*Header*/
+.header_navegador{
+    background-color: map-get($mapa-colores , color-principal );
+    .contenedorlogo{
+        display: flex;
+        justify-content: left;
+    }
+    .logo{
+        width: $tamanio-50px;
+    }
+    .bandera_argentina{
+        width: $tamanio-50px;
+    
+    }
+    .ig{
+        font-size: $texto-20;
+        color: map-get($mapa-colores , color-ig );
+        &:hover{
+            color: map-get($mapa-colores , color-blanco );
+        }
+    }
+    .wsp{
+        font-size: $texto-20;
+        color: map-get($mapa-colores , color-wsp );
+        margin-left: $tamanio-05;
+        margin-right: $tamanio-05;
+        &:hover{
+            color: map-get($mapa-colores , color-blanco );
+        }
+    }
+    .link_nav{
+        font-family: $fuente-ruda;
+        font-size: $texto-15;
+        text-decoration: none;
+        color: map-get($mapa-colores , color-blanco );
+        font-weight: 999;
+        margin-left: $tamanio-05;
+        transition: text-shadow 0.2s;
+        &:hover{
+            color: map-get($mapa-colores , color-link )
+        }
+    }
+}

@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Lora:ital@1&family=Nunito+Sans:ital,opsz,wght@1,6..12,400;1,6..12,500&family=Prompt:ital,wght@0,500;1,400&family=Ruda:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header*/
+.header_navegador{
+    background-color: rgb(0, 0, 0);
+}
+.contenedorlogo{
+    display: flex;
+    justify-content: left;
+
+}
+.logo{
+    width: 50px;
+}
+.bandera_argentina{
+    width: 50px;
+
+}
+.ig{
+    font-size: 2rem;
+    color: rgba(255, 0, 157, 0.671);
+}
+.wsp{
+    font-size: 2rem;
+    color: rgb(135, 224, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navegador_header{
+    margin-top: 20px;
+}
+.link_nav{
+    font-family:'Ruda', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 999;
+    margin-left: 8px;
+}
+/*finaliza el header*/
+
+/*Main del index*/
+.fondo_main{
+    background-image: url(../fondo_imagen1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_presentacion{
+    margin-top: 50px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.subtitulo_presentacion{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.parrafo_presentacion{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.titulo_contacto{
+    margin-top: 50px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.imagen_presentacion1{
+    width: 250px;
+}
+.imagen_presentacion2{
+    width: 250px;
+}
+.titulo_presentacion2{
+    margin-top: 50px;
+}
+.imagen_comohariamos{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.imagen_comohariamos2{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.recomendaciones{
+    background-color: rgb(11, 0, 167);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_recomendacion{
+    margin-top: 50px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
+.parrafo_recomendacion{
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+/*Fin del main index*/
+
+/*Main del servicio*/
+
+.imagen_preguntas{
+    margin-top: 150px;
+}
+
+.titulo_presentacion3{
+    margin-top: 20px;
+    text-align: center;
+}
+.parrafo_porque{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.parrafo_quienes{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.parrafo_definicion{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.imagen_quienes{
+    width: 500px;
+    margin-top: 80px;
+}
+.imagen_que{
+    width: 500px;
+    margin-top: 50px;
+}
+.carousel{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.carousel-item{
+    height: 40vh;
+    width: 100%;
+}
+.margen_50px{
+    margin-top: 50px;
+}
+.margen_20px{
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texto_ubicacion{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.7rem;
+}
+.texto_contacto{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.7rem;
+}
+.texto_redes{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.7rem;
+}
+.tdlr{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.3rem;
+    margin-top: 2px
+}
+
+@media screen and (max-width: 768px) {
+    .imagen_preguntas{
+        margin-top: 20px;
+        width: 300px;
+    }
+    .video_recomendacion{
+        width: 350px;
+        height: 200px;
+    }
+    .titulo_presentacion{
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+    
+    .parrafo_presentacion{
+        font-size: 1rem;
+    }
+
+    .parrafo_porque{
+        font-size: 1rem;
+    }
+
+    .parrafo_quienes{
+        font-size: 0.8rem;
+    }
+
+    .parrafo_definicion{
+        font-size: 0.8rem;
+    }
+
+    .imagen_presentacion1{
+        width: 200px;
+    }
+
+    .titulo_contacto{
+        margin-top: 50px;
+        font-family: 'Prompt', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .titulo_que{
+        font-size: 1.4rem;
+    }
+
+    .parrafo_que{
+        font-size: 0.6rem;
+    }
+
+    .titulo_presentacion2{
+        margin-top: 20px;
+    }
+
+    .imagen_presentacion2{
+        width: 200px;
+    }
+
+    .imagen_comohariamos{
+        width: 150px;
+    }
+
+    .imagen_comohariamos2{
+        width: 150px;
+    }
+
+    .imagen_quienes{
+        width: 300px;
+        margin-top: 5px;
+    }
+    .imagen_que{
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .margen_20px{
+        margin-bottom: 20px;
+    }
+    .footer{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 20vh;
+        
+    }
+
+    .texto_ubicacion{
+        font-size: 0.6rem;
+    }
+
+    .texto_contacto{
+        font-size: 0.6rem;
+    }
+
+    .texto_redes{
+        font-size: 0.6rem;
+    }
+
+    .tdlr{
+        font-size: 0.3rem;
+    }
+
+    .mapa{
+        height: 5vh;
+    }
+}

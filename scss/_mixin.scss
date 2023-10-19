@@ -1,0 +1,6 @@
+@mixin contenerflexiblecenter($direccion){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: center;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,214 @@
+/*Main*/
+.fondo_main{
+    background-image: url(../fondo_imagen1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .titulo_presentacion{
+        margin-top: $tamanio-50px;
+        font-family: $fuente-prompt;
+        font-size: $texto-25;
+        font-weight: 800;
+        .imagen_que{
+            width: $tamanio-500px;
+            margin-top: $tamanio-50px;
+        }
+    }
+    .parrafo_presentacion{
+        font-family: $fuente-nunito;
+        font-weight: 100;
+        font-size: $texto-12;
+        margin-top: $tamanio-20px;
+    }
+    .subtitulo_presentacion{
+        font-family: $fuente-prompt;
+        font-size: $texto-25;
+        font-weight: 800;
+    }
+    .titulo_presentacion2{
+        margin-top: $tamanio-50px;
+    }
+    .imagen_presentacion1{
+        width: $tamanio-250px;
+    }
+    .imagen_presentacion2{
+        width: $tamanio-250px;
+    }
+    .imagen_comohariamos{
+        width: $tamanio-200px;
+        margin-bottom: $tamanio-10;
+    }
+    .imagen_comohariamos2{
+        width: $tamanio-200px;
+        margin-bottom: $tamanio-10;
+    }
+    .titulo_contacto{
+        margin-top: $tamanio-50px;
+        font-family: $fuente-prompt;
+        font-size: $texto-30;
+        font-weight: 800;
+    }
+    .recomendaciones{
+        background-color: map-get($mapa-colores , color-recomendaciones );
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .titulo_recomendacion{
+            margin-top: $tamanio-50px;
+            font-family: $fuente-prompt;
+            font-size: $texto-20;
+            font-weight: 800;
+            color: map-get($mapa-colores , color-blanco );
+        }
+        .parrafo_recomendacion{
+            font-family: $fuente-prompt;
+            color: map-get($mapa-colores , color-blanco );
+            font-size: $texto-12;
+            margin-top: $tamanio-20px;
+        }
+    }
+    .link_nav{
+        font-family: $fuente-ruda;
+        font-size: $texto-15;
+        text-decoration: none;
+        color: map-get($mapa-colores , color-blanco );
+        font-weight: 999;
+        margin-left: $tamanio-05;
+    }
+    .imagen_preguntas{
+        margin-top: $tamanio-150px;
+    }
+    .titulo_recomendacion2{
+        margin-top: $tamanio-50px;
+        font-family: $fuente-prompt;
+        font-size: $texto-20;
+        font-weight: 800;
+        color: map-get($mapa-colores , color-blanco );
+    }
+    .parrafo_recomendacion2{
+        font-family: $fuente-prompt;
+        color: map-get($mapa-colores , color-blanco );
+        font-size: $texto-12;
+        margin-top: $tamanio-20px;
+    }
+    .parrafo_porque{
+        font-family: $fuente-nunito;
+        font-weight: 100;
+        font-size: $texto-15;
+        margin-top: $tamanio-20px;
+    }
+    .titulo_presentacion3{
+        margin-top: $tamanio-20px;
+        text-align: center;
+        .parrafo_quienes{
+            font-family: $fuente-nunito;
+            font-size: $texto-15;
+            margin-top: $tamanio-20px;
+        }
+        .imagen_quienes{
+            width: $tamanio-500px;
+            margin-top: $tamanio-80px;
+        }
+    }
+    .margen_50px{
+        margin-top: $tamanio-50px;
+    }
+    .margen_20px{
+        margin-bottom: $tamanio-20px;
+    }
+    .ig{
+        font-size: $texto-20;
+        color: map-get($mapa-colores , color-ig );
+        &:hover{
+            color: map-get($mapa-colores , color-ig-2 );
+        }
+    }
+    .formulario_contacto{
+        @include contenerflexiblecenter(row);
+    }
+}
+
+/*mediaquaries del main*/
+@media screen and (max-width: 768px){
+    .fondo_main{
+        .imagen_preguntas{
+            margin-top: $tamanio-02;
+            width: $tamanio-300px;
+        }
+        .titulo_contacto{
+            margin-top: $tamanio-50px;
+            font-family: $fuente-prompt;
+            font-size: $texto-15;
+            font-weight: 800;
+        }
+        .parrafo_porque{
+            font-size: $texto-1;
+        }
+        .imagen_presentacion1{
+            width: $tamanio-200px;
+        }
+        .titulo_presentacion3{
+            .imagen_quienes{
+                width: $tamanio-300px;
+                margin-top: $tamanio-05;
+            }
+            .titulo_presentacion2{
+                margin-top: $tamanio-20px;
+            }
+            .parrafo_quienes{
+                font-size: $texto-08;
+            }
+        }
+        .titulo_presentacion{
+            font-size: $texto-25;
+            margin-top: $tamanio-20px;
+            .imagen_que{
+                width: $tamanio-300px;
+                margin-top: $tamanio-150px;
+            }
+        }
+        .margen_20px{
+            margin-bottom: $tamanio-20px;
+        }
+        .video_recomendacion{
+            width: $tamanio-350px;
+            height: $tamanio-200px;
+        }
+        .titulo_presentacion{
+            font-size: $texto-25;
+            margin-top: $tamanio-20px;
+        }
+        
+        .parrafo_presentacion{
+            font-size: $texto-1;
+        }
+    
+        .parrafo_definicion{
+            font-size: $texto-08;
+            ;
+        }
+    
+        .imagen_presentacion1{
+            width: $tamanio-200px;
+        }
+    
+        .titulo_que{
+            font-size: $texto-14;
+        }
+    
+        .parrafo_que{
+            font-size: $texto-06;
+        }
+        .imagen_presentacion2{
+            width: $tamanio-200px;
+        }
+    
+        .imagen_comohariamos{
+            width: $tamanio-150px;
+        }
+    
+        .imagen_comohariamos2{
+            width: $tamanio-150px;
+        }
+    }
+}

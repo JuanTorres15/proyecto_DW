@@ -1,0 +1,40 @@
+/*tamanios*/
+$tamanio-02: 2px;
+$tamanio-05: 5px;
+$tamanio-10: 10px;
+$tamanio-20px: 20px;
+$tamanio-50px: 50px;
+$tamanio-80px: 80px;
+$tamanio-150px: 150px;
+$tamanio-200px: 200px;
+$tamanio-250px: 250px;
+$tamanio-300px: 300px;
+$tamanio-350px: 350px;
+$tamanio-500px: 500px;
+/*fuentes*/
+$fuente-ruda: 'Ruda', sans-serif;
+$fuente-prompt: 'Prompt', sans-serif;
+$fuente-nunito: 'Nunito Sans', sans-serif;
+/*textos*/
+$texto-03: 0.3rem;
+$texto-06: 0.6rem;
+$texto-07: 0.7rem;
+$texto-08: 0.8rem;
+$texto-1: 1rem;
+$texto-12: 1.2rem;
+$texto-14: 1.4rem;
+$texto-15: 1.5rem;
+$texto-20: 2rem;
+$texto-25: 2.5rem;
+$texto-30: 3rem;
+/*mapa de colores*/
+
+$mapa-colores: (
+    color-principal: rgb(0, 0, 0),
+    color-blanco: rgb(255, 255, 255),
+    color-ig: rgba(255, 0, 157, 0.671),
+    color-ig-2:  rgb(255, 0, 157),
+    color-wsp:  rgb(135, 224, 0),
+    color-link:  #4ba5ff,
+    color-recomendaciones: rgb(11, 0, 167)
+)
