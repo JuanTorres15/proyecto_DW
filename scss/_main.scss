@@ -125,11 +125,16 @@
     }
     .formulario_contacto{
         @include contenerflexiblecenter(row);
+        .formulario_texto{
+            font-family: $fuente-ruda;
+            font-weight: 900;
+            font-size: 1rem;
+        }
     }
 }
 
 /*mediaquaries del main*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .fondo_main{
         .imagen_preguntas{
             margin-top: $tamanio-02;

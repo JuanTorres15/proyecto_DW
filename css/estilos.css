@@ -183,10 +183,16 @@
   flex-direction: row;
   justify-content: center;
   margin-bottom: 5px;
+  margin-right: 10px;
+}
+.fondo_main .formulario_contacto .formulario_texto {
+  font-family: "Ruda", sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
 }
 
 /*mediaquaries del main*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .fondo_main .imagen_preguntas {
     margin-top: 2px;
     width: 300px;
